@@ -1,5 +1,7 @@
 /* Star Font*/
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
 /* End Font*/
 
 
@@ -11,9 +13,7 @@
     line-height: 1,5em;
     margin: 0;
     padding: 0; 
-    background-image: url(image.html/sul.jpg);
-
-    
+    background-image: url(image.html/sul.jpg)no-repeat center fixed;   
 }
 
 /* End Body*/
@@ -66,9 +66,9 @@ a:active {
 
 .menu-primer ul {
      background-color: black;
-     border-radius: 4px;
+     border-radius: 6px;
      box-shadow: 
-                0 3px 5px -1  gray rgba (0,0,0,.2)
+                0 4px 5px -1  gray rgba (0,0,0,.2)
                 0 6px 10px 0  gray rgba (0,0,0,.14)
                 0 1px 18px    grey rgba (0,0,0,.12)
 }
@@ -82,7 +82,7 @@ a:active {
     font-size: 13px;
     display: inline-block;
     letter-spacing: 1px;
-    padding: 10px 30px;
+    padding: 10px 27px;
     text-transform: uppercase;
 }
 .menu-primer a:hover {
@@ -123,8 +123,8 @@ a:active {
 
 /* Start jumbotron*/
 .jumbotron {
-    background-color: aqua;
-    border: 1px solid black;
+    background-color: aliceblue;
+    border: 3px solid black;
     border-radius: 4px;
     padding: 20px 0;
 }
@@ -142,58 +142,26 @@ a:active {
 /* Start Profil*/
 .profil {
     font-size: 26px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: abril-fatface;
 }
 .profil h1 {
     font: size 32px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: abril+plateface,roboto,helvetica;
     color: darkblue;
+}
 
-}
-/* End Profil*/
-/* Start artikel*/
-.artikel h1 {
-    font-size: 55px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1px;
-    
-    
-}
-.artikel h2 {
-    font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    line-height: 1px;
-    
-    
-    
-    
-}
-.artikel h3 {
-    font-size: 70;
-    font-family: Arial, Helvetica, sans-serif
-
-}
-/* End Artikel*/
-
-/* Star latar-belakang*/
+/* Start latar belakang */
 .latar-belakang {
-    font-size: 32px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 32px;
-    
-
-    
-    
+    padding: 10px 1;
+    margin: 30px 15;
 }
-.latar-belakang h1 {
+
+.latar-belakang h2 {
     font-size: 32px;
-    color: darkblue;
-}
-.latar-belakang h3 {
-    font-size: 100;
-    
-
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
 }
 
 
@@ -235,3 +203,23 @@ a:active {
     text-transform: uppercase;
 } 
 /* End menu sekunder*/
+
+/* Start artikel*/
+.artikel h1 {
+    font-size: 45px;
+    color: darkblue;
+    font-family: roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    
+}
+.artikel h3 {
+    font-size: 30px;
+    font-family: roboto,oxygen,ubuntu;
+}
+
+/* End artikel*/
+
+/* Star agenda */
+
+
+/* End agenda*/
